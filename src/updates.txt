@@ -1,0 +1,36 @@
+<!-- start services -->
+	<section id="services">
+		<div class="container">
+			<h2>CERTIFICATIONS</h2>
+			<div class="row">
+				<div class="ct-services">
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-code" aria-hidden="true"></span>
+							 <i class="fa fa-file-code-o fa-wrapper" aria-hidden="true"></i> 
+						</div>
+						<h3>Front End Development</h3>
+						<p>Development of responsive websites, cross-browser and cross-platform testing.</p>
+					</div>
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-wordpress fa-wrapper" aria-hidden="true"></span>
+						</div>
+						<h3>Wordpress Development</h3>
+						<p>Custom development (website, theme & plugin), hosting and maintenance.</p>
+					</div>
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-line-chart" aria-hidden="true"></span>
+							<!-- <i class="fa fa-search fa-wrapper" aria-hidden="true"></i>-->
+						</div>
+						<h3>Search Engine Optimization</h3>
+						<p>Increase your visibility across all major search engines & local search with SEO techniques.</p>
+					</div>
+				</div>
+				<!-- end row of services -->
+			</div>
+			<!-- end row services section -->
+		</div>
+		<!-- end div services section -->
+	</section>
