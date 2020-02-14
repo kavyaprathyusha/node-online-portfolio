@@ -16,8 +16,6 @@ app.get('/', function (req, res) { //.get checks the root
 app.get('/about', function (req, res) { //.get checks the root 
     res.send('<h1>About</h1>')
   })
- 
-app.listen(3000, () =>{ //listen for app to start
+const PORT = process.env.PORT || 5001;
 
-console.log("The server is running on port 3000")
-}) 
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
