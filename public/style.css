@@ -12,14 +12,14 @@ body {
 	padding: 0;
 }
 .color-7 {
-	background: #3fa46a;
+	background: #fff;
 }
 h2 {
 	color: #24242a;
 	font-weight: 700;
 	font-size: 50px;
 	font-family: 'Montserrat', sans-serif;
-	text-transform: lowercase;
+	text-transform: capitalize;
 }
 
 h2:after {
@@ -159,11 +159,11 @@ h5 {
 
 .navbar-toggle .icon-bar {
 	width: 35px;
-	height: 5px
+	height: 5px;
 }
 
 #ResponsiveNav li a {
-	font-size: 16px;
+	font-size: 15px;
 	color: #fff;
 	font-weight: 700;
 	display: inline-block;
@@ -173,7 +173,7 @@ h5 {
 	-webkit-transition: all .40s ease-in-out;
 	transition: all .40s ease-in-out;
 	font-family: 'Roboto', sans-serif;
-	text-transform: lowercase;
+	text-transform: capitalize;
 }
 
 #ResponsiveNav li a:after {
@@ -191,13 +191,16 @@ h5 {
 }
 
 #ResponsiveNav li a:hover {
-	color:#24242a;
+	color:#56bfd1;
+	font-size: 17px;
+		
 }
 
 #ResponsiveNav ul li a:hover:after,
 #ResponsiveNav ul li a:focus:after,
 #ResponsiveNav ul li a:active:after {
 	width: 70%;
+	
 }
 
 button.navbar-toggle.collapsed {
