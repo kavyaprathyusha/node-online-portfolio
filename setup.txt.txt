@@ -1,2 +1,7 @@
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
 https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes
+
+to update the changes:
+cd node-online-portfolio
+git pull origin master
+git push heroku master
