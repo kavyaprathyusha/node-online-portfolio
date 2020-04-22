@@ -5,3 +5,14 @@ to update the changes:
 cd node-online-portfolio
 git pull origin master
 git push heroku master
+
+
+After you change code in local and push it to GITHUB repo, you can 
+do the below to deploy:
+go to Deploy tab :
+https://dashboard.heroku.com/apps/kavya-prathyusha-chekka/deploy/github
+
+Under deployment method, check if github is connected and point to the repo 
+of the project.
+
+Then under manual deployment, select the branch to deploy.
